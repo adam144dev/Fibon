@@ -5,13 +5,11 @@ https://www.meetup.com/%C5%9Al%C4%85ska-Grupa-Microsoft-Meetup/events/240934233/
 
 Warsztaty .NET Core Tour na Śląskiej Grupie Microsoft / devWarsztaty
 
-    Print ticket Export Tell a friend Share 
 
-    Saturday, July 8, 2017
-    9:00 AM to 5:00 PM
+
     Centrum Informacji Naukowej i Biblioteka Akademicka
 
-    Bankowa 11a, Katowice (map)
+    Bankowa 11a, Katowice 
 
     Łukasz Pyrzyk i Piotrek Gankiewicz wracają do Katowic po raz kolejny! 
 
@@ -47,21 +45,4 @@ Warsztaty .NET Core Tour na Śląskiej Grupie Microsoft / devWarsztaty
     • Podstawowa znajomość Git oraz konto na portalu github.com
 
     • Zainstalowane środowisko Docker 
-
-    Zamknęliśmy RSVP ponieważ mamy tylko 20 miejsc. Wszystkich zgłoszonych będziemy jeszcze weryfikować po względem "pewności obecności". Jak zwolnią się miejsca zostaniecie poinformowani. Proszę o PW w celu umieszczenia na liście rezerwowej.
-
-Hey Adam, join the conversation!
-
-    Piotr Piasecki
-    Piotr Piasecki
-
-    Czy możliwa jest jakaś forma relacji / dokumentacji z warsztatów ?
-
-    Like · Reply · 6 days ago · Mute
-        Tomasz Kot
-        Tomasz Kot
-
-        Niestety relacja nie. Dokumentacja - jeszcze pogadamy z prowadzącymi.
-
-        Like · Yesterday
 

@@ -8,14 +8,14 @@ services:
     command: rabbitmq:5672
 
   api:
-    image: adam1441dev/fibon-api:latest
+    image: fibon-api:latest
     links:
       - rabbitmq
     ports:
       - '5000:5000'
 
   service:
-    image: adam1441dev/fibon-service:latest
+    image: fibon-service:latest
     links:
       - rabbitmq
     ports:

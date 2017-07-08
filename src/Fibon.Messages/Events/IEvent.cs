@@ -1,21 +1,19 @@
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
-namespace Fibon.Api.Events
+namespace Fibon.Messages.Events
 {
     public interface IEvent
     {
-         
     }
 
-    public interface IEventHAndler<in T> where T : IEvent
+    public interface IEventHandler<in T> where T : IEvent
     {
         Task HandleAsync(T @event);
     }
 
-    public class VAlueCalculateEvent : IEvent
+    public class ValueCalculatedEvent : IEvent
     {
         public int Number { get; set; }
         public int Value { get; set; }
     }
-    
 }

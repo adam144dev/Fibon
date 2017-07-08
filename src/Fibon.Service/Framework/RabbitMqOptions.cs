@@ -4,6 +4,5 @@ namespace Fibon.Service.Framework
 {
     public class RabbitMqOptions : RawRabbitConfiguration
     {
-        
     }
 }

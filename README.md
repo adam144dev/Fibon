@@ -1,5 +1,8 @@
 # Fibon
 
+[ .NET Core, RabbitMQ, Docker, Virtual Machinez, Azur, Continous Integration, Travis, Rancher ]
+
+
 https://www.meetup.com/%C5%9Al%C4%85ska-Grupa-Microsoft-Meetup/events/240934233/
 
 

@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using RawRabbit;
 using RawRabbit.vNext;
 using Fibon.Api.Framework;
+using Fibon.Api.Repository;
 
 namespace Fibon.Api
 {
@@ -32,6 +33,8 @@ namespace Fibon.Api
         {
             // Add framework services.
             services.AddMvc();
+            services.AddSingleton<IRepository>(_ => new RepositoryInMemory());
+            ConfigureRabbitMq(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

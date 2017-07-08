@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using RawRabbit;
+using RawRabbit.vNext;
+using Fibon.Api.Framework;
 
 namespace Fibon.Api
 {
@@ -38,6 +41,16 @@ namespace Fibon.Api
             loggerFactory.AddDebug();
 
             app.UseMvc();
+        }
+
+        private void ConfigureRabbitMq(IServiceCollection services)
+        {
+            var options = new RabbitMqOptions();
+            var section = Configuration.GetSection("rabbitmq");
+            section.Bind(options);
+
+            var client = BusClientFactory.CreateDefault(options);
+            services.AddSingleton<IBusClient>(_ => client);
         }
     }
 }
